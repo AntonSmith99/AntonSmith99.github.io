@@ -1,0 +1,17 @@
+img{
+    width: 4em;
+    height: 5em;
+    float: right;
+    border: 1px;
+    border-style: dashed;
+    border-color: rgb(163, 176, 184);
+    margin-top: 1em;
+    border-radius: 4px;
+}
+
+img:hover{
+    border-style: solid;
+    border-color: rgb(186, 197, 204);
+    margin-top: 1em;
+    background-color: rgb(186, 197, 204);
+}

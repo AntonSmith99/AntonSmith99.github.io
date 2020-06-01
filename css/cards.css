@@ -1,0 +1,97 @@
+@import "../w3css/w3.css";
+
+/*card styling*/
+.card{
+    transition: all 20s ease;
+    z-index: -1;
+    position: fixed;
+    width: 20em;
+}
+
+.card:hover{
+    z-index: 1000;
+}
+
+.cardHeader{
+    background-color: rgb(163, 176, 184);
+    position: relative;
+    height: 5em;
+
+    -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;    
+}
+
+.cardFooter{
+    /* background-color: rgb(186, 197, 204); */
+    background-color: rgb(225, 231, 235);
+    height: 3em;
+    position: relative;
+
+    -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.cardBody{
+    font-size: 1em;
+    max-height: 9em;
+    transition: max-height 1s ease-out;
+    background-color: rgb(225, 231, 235);
+    overflow: hidden;
+
+    -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.cardBody:hover{
+    height: auto;
+    max-height: 50em;
+    transition: max-height 1.5s ease-in;
+}
+/*card styling*/
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h1,h2,h3{
+    color: rgba(233, 227, 227, 0.932);
+}
+
+.right-align-buttons{
+    margin-left: 10em;
+}
+
+
+@media screen and (max-width: 500px) {
+  .cardBody {
+    font-size: 1em;
+  }
+}
