@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/w3.css" />
+    <link rel="stylesheet" href="css/images.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.js"></script> 
+
+</head>
+
+<body>
+    <div id="headerDiv"></div>
+
+
+    <object data="pdf/curriculum_vitae.pdf" type="application/pdf" width="100%" height="700">
+        <p>Alternative text - include a link <a href="pdf/curriculum_vitae.pdf">to the PDF!</a></p>
+    </object>
+
+
+
+    <div id="footerDiv"></div>
+        
+      
+
+
+</body>
+
+<script> 
+
+    $("#footerDiv").load("footer.html");
+    $("#headerDiv").load("header.html"); 
+
+    $(window).on("load", function() {
+      $(".header").css("margin-bottom", 0);
+      $("#pageDetail").html("Curriculum Vitae");
+    });
+</script> 
+
+</html>
