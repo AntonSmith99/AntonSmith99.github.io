@@ -11,13 +11,15 @@ app.use(bodyParser.urlencoded({extended: true}))
 
  
 //ROUTES WILL GO HERE
-app.get('/',function(req,res){
-    res.sendFile(__dirname + '/index.html');
-   
-});
+
 
 app.use(express.static(path.join(__dirname, '/css')));
 app.use(express.static(path.join(__dirname, '/images')));
 app.use(express.static(path.join(__dirname, '/pdf')));
-console.log(__dirname);
+app.use(express.static(path.join(__dirname, '/styling')));
 
+app.get('/',function(req,res){
+    res.sendFile(__dirname + '/index.html');
+});
+
+app.listen(3000);
