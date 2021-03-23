@@ -82,7 +82,7 @@ p{
 
 .cardBody{
     font-size: 1em;
-    max-height: 7em;
+    max-height: 5.5em;
     transition: max-height 1s ease-out;
     background-color: rgb(225, 231, 235);
     overflow: hidden;
