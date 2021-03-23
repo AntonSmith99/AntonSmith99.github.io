@@ -6,6 +6,7 @@ p{
 }
 .w3-row{
   margin-bottom: 5em;
+  min-height: 8em;
 }
 .card{
     transition: all 20s ease;
