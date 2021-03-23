@@ -82,11 +82,11 @@ p{
 
 .cardBody{
     font-size: 1em;
-    max-height: 5em;
+    max-height: 7em;
     transition: max-height 1s ease-out;
     background-color: rgb(225, 231, 235);
     overflow: hidden;
-    min-height: 5em;
+    min-height: 7em;
 
     -moz-user-select: -moz-none;
    -khtml-user-select: none;
