@@ -6,7 +6,6 @@ p{
 }
 .w3-row{
   margin-bottom: 5em;
-  min-height: 8em;
 }
 .card{
     transition: all 20s ease;
@@ -66,7 +65,7 @@ p{
     /* background-color: rgb(186, 197, 204); */
     background-color: rgb(225, 231, 235);
     height: 3em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     position: relative;
 
     -moz-user-select: -moz-none;
