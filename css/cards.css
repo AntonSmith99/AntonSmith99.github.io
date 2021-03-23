@@ -12,6 +12,7 @@ p{
     z-index: -1;
     position: fixed;
     width: 20em;
+    min-height: 7em;
 }
 #bigCard{
   width: 30em;
